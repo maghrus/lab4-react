@@ -1,0 +1,98 @@
+[
+    {
+        "id" : 1,
+        "question" : "La ce dată a fost realizată Marea Unire din România?",
+        "difficulty" : "Ușor",
+        "category" : "Istorie",
+        "options" : ["27 aprilie 1918", "4 mai 1859", "1 decembrie 1918", "1 ianuarie 1601"],
+        "correctOption" : "1 decembrie 1918" 
+    },
+    {
+        "id" : 2,
+        "question" : "Care este capitala Tunisiei?",
+        "difficulty" : "Ușor",
+        "category" : "Geografie",
+        "options" : ["Mukana", "Tunis", "Levedo", "Ankara"],
+        "correctOption" : "Tunis" 
+    },
+    {
+        "id" : 3,
+        "question" : "Care este mâncarea preferată a lui Cristi?",
+        "difficulty" : "Dificil",
+        "category" : "Social",
+        "options" : ["Pizza", "Sushi", "Paste cu ton", "Kebab vegetal"],
+        "correctOption" : "Pizza" 
+    },
+    {
+        "id" : 4,
+        "question" : "În ce an s-a încheiat al Doilea Război Mondial?",
+        "difficulty" : "Ușor",
+        "category" : "Istorie",
+        "options" : ["1942", "1945", "1939", "1949"],
+        "correctOption" : "1945" 
+    },
+    {
+        "id" : 5,
+        "question" : "Care este cel mai lung râu din Europa? (fără Federeația Rusă)",
+        "difficulty" : "Ușor",
+        "category" : "Geografie",
+        "options" : ["Rin", "Elba", "Dunărea", "Nistru"],
+        "correctOption" : "Dunărea" 
+    },
+    {
+        "id" : 6,
+        "question" : "Care este cel mai titrat fotbalist din lume?",
+        "difficulty" : "Mediu",
+        "category" : "Sport",
+        "options" : ["Dani Alves", "Cristiano Ronaldo", "Lionel Messi", "Andreas Iniesta"],
+        "correctOption" : "Lionel Messi" 
+    },
+    {
+        "id" : 7,
+        "question" : "Ce reprezintă RAM-ul într-un calculator?",
+        "difficulty" : "Mediu",
+        "category" : "Informatică",
+        "options" : ["O interfață grafică", "Memorie volatilă utilizată temporar", "Memorie de stocare", "Cooler pentru cabluri"],
+        "correctOption" : "Memorie volatilă utilizată temporar" 
+    },
+    {
+        "id" : 8,
+        "question" : "Care extensie este specifică fișierelor executabile în Windows?",
+        "difficulty" : "Ușor",
+        "category" : "Informatică",
+        "options" : [".exe", ".txt", ".go", ".png"],
+        "correctOption" : ".exe" 
+    },
+    {
+        "id" : 9,
+        "question" : "Ce protocol este folosit pentru trimiterea e-mailurilor?",
+        "difficulty" : "Dificil",
+        "category" : "Informatică",
+        "options" : ["DNS", "TCP", "SMTP", "FTP"],
+        "correctOption" : "SMTP" 
+    },
+    {
+        "id" : 10,
+        "question" : "Ce organ al corpului uman produce insulina?",
+        "difficulty" : "Ușor",
+        "category" : "Medicină",
+        "options" : ["Nasul", "Inima", "Pancreasul", "Urechea dreaptă"],
+        "correctOption" : "Pancreasul" 
+    },
+    {
+        "id" : 11,
+        "question" : "Care este unitatea de bază a informației?",
+        "difficulty" : "Ușor",
+        "category" : "Informatică",
+        "options" : ["Bit", "Byte", "Kilobit", "Pixel"],
+        "correctOption" : "Bit" 
+    },
+    {
+        "id" : 12,
+        "question" : "Cine a fost primul domnitor al Țării Românești?",
+        "difficulty" : "Mediu",
+        "category" : "Istorie",
+        "options" : ["Iulius Caesar", "Alexandru cel Bun", "Basarab I", "Mihai Viteazul"],
+        "correctOption" : "Basarab I" 
+    }
+]

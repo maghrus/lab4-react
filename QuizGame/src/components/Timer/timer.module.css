@@ -1,0 +1,6 @@
+.timer {
+  display: inline-block;
+  background-color: var(--card-bg);
+  border: none;
+  font-size: 14px;
+}

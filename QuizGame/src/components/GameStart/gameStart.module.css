@@ -1,0 +1,84 @@
+.welcome {
+  width: 90%;
+  max-width: 600px;
+  margin: 0px auto;
+  padding: 20px;
+  background-color: var(--boxCard);
+  border: 1px solid var(--light);
+  text-align: center;
+  border-radius: 8px;
+}
+
+.userInput, .userOptions {
+  margin: 16px 0px 8px 0px;
+}
+
+.labelStart {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.inputStart {
+  width: 60%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid var(--light);
+  border-radius: 8px;
+}
+
+select{
+  border-radius: 4px;
+  width: 60px;
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+.butonStart {
+  padding: 12px 18px;
+  font-size: 14px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 600;
+  margin-top: 10px;
+  border: 2px solid var(--light);
+  cursor: pointer;
+  border-radius: 12px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(97, 111, 96);
+  transition: background-color ease-in-out 0.3s;
+}
+
+.butonStart:hover{
+  background-color: #375136;
+}
+
+.paragrafOrg{
+  margin-bottom: 0px;
+}
+
+.alegereQuestion{
+  margin-top: 8px;
+}
+
+@media (max-width: 480px) {
+  .welcome {
+    padding: 16px;
+    border-radius: 6px;
+  }
+
+  .inputStart {
+    width: 70%;
+    font-size: 13px;
+  }
+
+  .butonStart {
+    width: 60%;
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  select {
+    width: 20%;
+    margin-top: 10px;
+  }
+}

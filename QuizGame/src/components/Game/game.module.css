@@ -1,0 +1,160 @@
+.container {
+  width: 90%;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: var(--boxCard);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.infoQuestion {
+  font-size: 14px;
+  display: inline-flex;
+  gap: 12px;
+}
+
+.infoQuestion p {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--infoColor);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.questionData {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.optionsQuestion {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.optionBtn {
+  padding: 10px;
+  margin: 0 auto;
+  font-size: 14px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  width: 80%;
+  background-color: transparent;
+  cursor: pointer;
+  color: var(--light);
+  transition: background-color ease-in-out 0.2s;
+}
+
+.optionBtn:hover{
+  background-color: rgb(79, 97, 87);
+  color: white;
+}
+
+.answersList, .scoreTable {
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: var(--card-bg);
+}
+
+.resultShow{
+  width: 90%;
+  max-width: 600px;
+  margin: 16px 0px 8px 0px;
+  padding: 8px;
+  background-color: var(--card-bg);
+}
+
+.resultShow p {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}
+
+.restartBtn {
+  margin-top: 4px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.answersList {
+  max-width: 700px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.answersList h3{
+  margin-bottom: 4px;
+}
+
+.answerBox {
+  padding: 16px;
+  margin: 0 auto;
+  height: fit-content;
+  width: 90%;
+  max-width: 500px;
+  background-color: var(--card-bg);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.answerBox p {
+  margin: 4px 0;
+}
+
+.scoreTable {
+  margin: 16px auto;
+  background-color: var(--card-bg);
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.scoreTable table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.scoreTable th,
+.scoreTable td {
+  padding: 12px 8px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.scoreTable th {
+  background-color: rgb(163, 163, 163);
+}
+
+.scoreTable caption {
+  font-size: 18px;
+  margin-bottom: 12px;
+  font-weight: bold;
+  text-align: left;
+}
+
+@media (max-width: 600px) {
+  .optionBtn, .butonStart, .butonTheme {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+
+  .labelStart, .inputStart {
+    font-size: 13px;
+  }
+}
